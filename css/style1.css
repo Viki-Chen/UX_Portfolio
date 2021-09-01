@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin:0;
-    font-family: open sans;
+    font-family: Montserrat;
     font-weight: normal;
         }
     
@@ -58,20 +58,18 @@ html, body {
         width: 100%;
       }
     
-    
-    .jumbotron{
-    background-size: cover;
-    text-align: center;
-    }
 
- 
-    
+
     .row{
         text-align: justify;
         padding: 40px;
         line-height: 30px;
     }
     
+    .jumbotron{
+max-height: 90px;
+    }
+
     hr {
       margin-top: -4rem;
       margin-bottom: 1rem;
@@ -117,3 +115,23 @@ html, body {
     .footer-text{
       color: #FFFFFF;
     }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+  
+  /* .img-fluid{ */ */
+    width: 370px;
+    height: 350px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+  }
+
+  .box{
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
