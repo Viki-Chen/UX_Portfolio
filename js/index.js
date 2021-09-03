@@ -28,6 +28,15 @@ $(document).ready(function(){
         }
     })
 
+    $("#Project4").hover(function(){
+        
+        if ($(this).attr("src") == "images/dog.png"){
+            $(this).attr("src", $(this).attr("src").replace("dog.png", "dog1.png"));
+        } else {
+            $(this).attr("src", $(this).attr("src").replace("dog1.png", "dog.png"));
+        }
+    })
+
 });
 
 
