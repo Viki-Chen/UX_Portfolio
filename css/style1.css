@@ -79,14 +79,14 @@ max-height: 90px;
     
     
     .socials {
-    
-      text-decoration: none;
+    text-decoration: none;
       list-style: none;
-      align-items: center;
+      text-align: center;
       justify-content: center;
+      padding-right: 2rem;
     }
     
-    
+   
     .socials li{
       margin: 0 10px;
       
@@ -110,10 +110,18 @@ max-height: 90px;
     
     .lets-connect{
       color: #FFFFFF;
+      text-align: center;
+      padding-top: 1rem;
     }
     
     .footer-text{
       color: #FFFFFF;
+      text-align: center;
+    }
+
+    .footer-copyright{
+      color: #FFFFFF;
+      text-align: center;
     }
 
     img {
@@ -132,6 +140,4 @@ max-height: 90px;
     
   }
 
-  .box{
-    box-shadow: 0px 4px 4px 0px #00000040;
-  }
+ 
