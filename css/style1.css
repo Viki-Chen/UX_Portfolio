@@ -35,7 +35,7 @@ html, body {
       }
     
       .navbar .navbar-nav .nav-link:hover {
-        color: #FBFF39;
+        color: #FFD9A0	;
       }
      
       .navbar .navbar-nav .nav-link {
@@ -47,7 +47,7 @@ html, body {
         left: 0;
         right: 0;
         margin: auto;
-        background-color: #FBFF39;
+        background-color: #FFD9A0	;
         color: transparent;
         width: 0%;
         content: '';
@@ -77,67 +77,22 @@ max-height: 90px;
       border-top: 3px solid rgba(31, 107, 248, 0.1);
     }
     
-    
-    .socials {
-    text-decoration: none;
-      list-style: none;
-      text-align: center;
-      justify-content: center;
-      padding-right: 2rem;
-    }
-    
-   
-    .socials li{
-      margin: 0 10px;
-      
-    }
-    
-    .socials a{
-      text-decoration: none;
-      color: #FFFFFF;
-      
-    }
-    
-    .socials a i{
-      font-size: 2.5rem;
-      transition: color .4s ease;
-      
-    }
-    
-    .socials a:hover i{
-      color: #FBFF39;
-    }
-    
-    .lets-connect{
-      color: #FFFFFF;
-      text-align: center;
-      padding-top: 1rem;
-    }
-    
-    .footer-text{
-      color: #FFFFFF;
-      text-align: center;
-    }
-
-    .footer-copyright{
-      color: #FFFFFF;
-      text-align: center;
-    }
-
     img {
         display: block;
         max-width: 100%;
         height: auto;
       }
 
-  
+      .section-title + p {
+        line-height: 1.8;
+      }
+
   /* .img-fluid{ */ */
     width: 370px;
     height: 350px;
     display: block;
   margin-left: auto;
   margin-right: auto;
-    
-  }
+
 
  
