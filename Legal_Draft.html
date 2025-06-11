@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style1.css" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sticky Footer with Contact</title>
+  <title>Legal Drafting Case Study</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
   <style>
     html, body {
       height: 100%;
@@ -31,11 +38,11 @@
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
-      background-color: #f4f4f4;
+      background-color: #ffffff;
     }
   
     h1 {
-      color: #F98267;
+      color: #142231;
     }
   
     .social-icon {
@@ -45,46 +52,48 @@
     .social-icon:hover {
       color: #000;
     }
+    .navbar .nav-link {
+    color: white !important;
+   
+  }
+  .navbar .nav-link:hover {
+    color: white !important;
+    
+
+  }
   </style>
 
-<style>
-  .navbar .nav-link {
-    color: white; /* or any color like #000, #333, etc. */
-  }
 
-  .navbar .nav-link:hover {
-    color: #ffe0d6; /* lighter color on hover */
-  }
-</style>
-
-<nav class="navbar sticky-top navbar navbar-expand-lg navbar-dark navbar" style="background-color: #F98267;">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar" style="background-color: #F98267;">
   <a class="navbar-brand" href="index.html">VIKI CHEN</a>
-  <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
   <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
-      <ul class="navbar-nav ml-auto flex-nowrap">
+    <ul class="navbar-nav ms-auto">
       <li class="nav-item active">
-        <a class="nav-link px-3" href="#">PROJECTS <span class="sr-only">(current)</span></a>
+        <a class="nav-link px-3" href="index.html">PROJECTS</a>
       </li>
       <li class="nav-item active">
-          <a class="nav-link px-3" href="about.html">ABOUT ME <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link px-3" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link px-3" href="files/Resume.pdf" target="_blank">RESUME <span class="sr-only">(current)</span></a>
-        </li>
-   
+        <a class="nav-link px-3" href="#">ABOUT ME</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link px-3" href="contact.html">CONTACT</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link px-3" href="files/Resume.pdf" target="_blank">RESUME</a>
+      </li>
     </ul>
   </div>
 </nav>
+
 <section class="hero text-center">
   <div class="container">
     <br><br>
     <h1 class="display-5">Legal Document Drafting</h1>
-    <p class="lead">Designing a solution for drafting legal documents in SimpleLegal, using generative AI</p>
+     <p class="text-muted mb-4"> Designing a solution for drafting legal documents in SimpleLegal, using generative AI</p>
   </div>
 </section>
 <section class="container mt-5">
@@ -94,6 +103,8 @@
       <p>Product Designer</p>
       <h6><strong>Tools</strong></h6>
       <p>Figma, Aha</p>
+      <h6><strong>Timeline</strong></h6>
+        <p>Q2 2023</p>
     </div>
     <div class="col-md-8">
       <h3 class="section-title">Overview</h3>
@@ -142,7 +153,7 @@
 <!-- Design Process -->
 <section class="container">
   <h3 class="section-title">Design Process</h3>
-  
+  <br>
       <h5>Research</h5>
       <p>We conducted a survey through WalkMe and collected responses from Jan 26 - Feb 20. The purpose of the research is to: <br> 
         <ul> 
@@ -150,14 +161,16 @@
            <li>Gain insight into what vendors are used today and what about them is liked/disliked </li>
            <li>Learn what document creation feature are important to clients</li>
        </ul>
+       <br>
    <div class="col-md-2"></div>
    <img src="images/Doc draft survey design.png" width="650" height="800" class="img-fluid rounded mx-auto d-block" alt="survey design">
-       
+       <br>
        <p>Our results showed that the majority of respondants do not use a document creation tool as many are wary of the high cost of such a tool. We wanted to explore how we could offer a document creation tool inside of SimpleLegal, thus allowing our users to draft, brainstorm, strategize, and generate content for any type of legal document more efficiently. </p>
-    <img src="images/Survey Results.png" class="img-fluid rounded mx-auto d-block" alt="survey design"></p>
+   <br>
+       <img src="images/Survey Results.png" class="img-fluid mx-auto d-block" alt="survey design"></p>
     </div>
   
-    
+    <br>
       <h5>Ideation</h5>
       <p>This was the first generative AI feature for the product, and I took on the sole design responsibility for this project. I researched several different applications that had document generation capabilities, and brainstormed on ideas to implement this feature into the application.<br>
         <br>One of the biggest challenges for me was testing out the prompts and designing the prompt inputs so that we could get closer to accurate and relevant results. We wanted flexibility with the prompts so that users can create first drafts of various legal documents, including contracts, memos, and legal briefs, based on learned patterns and data from existing content, but also give enough context to receive accurate results. 
@@ -174,16 +187,18 @@
         </ul>
     </p>
 
-    
+    <br>
       <h5>Design</h5>
       <p>
-        I worked on several designs for giving the prompts and previewing the document, drawing inspiration from other applications and our other product lines. My initial design populated a modal, where users could input their prompts and select relevant fields for their draft. However, to avoid excess scroll and to maintain context for users, I landed on a new design. This design borrowed an existing component in the application in which users are already familiar with. In addition, this solves the problem of having enough real estate, and provides the user with additional context for what they are doing. 
+        I explored multiple design approaches for how users input prompts and preview generated documents, drawing inspiration from industry best practices and our own product ecosystem. My initial concept used a modal where users could enter prompts and select relevant fields. However, after testing and considering usability, I realized this approach introduced unnecessary scrolling and disrupted user context.
+
+To address this, I pivoted to a more integrated design that repurposed an existing, familiar component within the application. This solution not only preserved context and reduced cognitive load but also made better use of screen real estate, allowing users to understand their actions in the flow of their task.
         <div class="col-md-12">
-            <img src="images/AI Draft Mocks (1).png" class="img-fluid rounded mx-auto d-block" alt="Responsive image">
+            <img src="images/AI Draft Mocks (1).png" class="img-fluid mx-auto d-block" alt="Responsive image">
             
       </p>
     </div>
-   
+    <br>
    
 </section>
 
