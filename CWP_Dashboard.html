@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style1.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legal Drafting Case Study</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Bootstrap JS Bundle (with Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #ffffff;
+    }
+  
+    h1 {
+      color: #142231;
+    }
+  
+    .social-icon {
+      transition: color 0.3s;
+    }
+  
+    .social-icon:hover {
+      color: #000;
+    }
+    .navbar .nav-link {
+    color: white !important;
+   
+  }
+  .navbar .nav-link:hover {
+    color: white !important;
+    
+
+  }
+  </style>
+
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar" style="background-color: #F98267;">
+  <a class="navbar-brand" href="index.html">VIKI CHEN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+        <a class="nav-link px-3" href="index.html">PROJECTS</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link px-3" href="#">ABOUT ME</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link px-3" href="contact.html">CONTACT</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link px-3" href="files/Resume.pdf" target="_blank">RESUME</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero text-center">
+  <div class="container">
+    <br><br>
+    <h1 class="display-5">CWP Dashboard</h1>
+    <p class="lead">Designing a solution for seamless integration between AxDraft and ContractWorks</p>
+  </div>
+</section>
+<section class="container mt-5">
+  <div class="row g-4">
+    <div class="col-md-4 project-meta">
+      <h6><strong>My Role</strong></h6>
+      <p>Product Designer</p>
+      <h6><strong>Tools</strong></h6>
+      <p>Figma, Aha, Jira</p>
+      <h6><strong>Timeline</strong></h6>
+        <p>2023</p>
+    </div>
+    <div class="col-md-8">
+      <h3 class="section-title">Overview</h3>
+      <p>
+        Legal professionals rely on multiple tools to manage cases, draft documents, and ensure compliance. However, using separate applications for related tasks often leads to inefficiencies, fragmented workflows, and data silos. Our team was tasked with integrating ContractWorks and Axdraft, two standalone legal software applications, into a single, cohesive platform - creating a full contract lifecycle management tool. The goal was to enhance usability, streamline workflows, and create a seamless experience without disrupting existing user habits.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Problem -->
+<section class="container">
+  <h3 class="section-title">The Problem</h3>
+  <p>
+<ul>
+  <li>Users relied on two separate systems to complete the full contract lifecycle. Depending on the task, they had to manually switch between systems.</li>
+  <br>
+  <li>Each system had distinct navigation structures and UI patterns, which can lead to confusion, inefficiency, and a disjointed user experience.</li>
+ <br>
+  <li>Users had to relearn interfaces depending on which system they were in.</li>
+</ul>
+  </p>
+  <br>
+
+<!-- Goal -->
+<section class="container">
+  <h3 class="section-title">The Goal</h3>
+  <p>
+    To provide a seamless and integrated solution for users with both pre-signature and post-signature document needs. This phase will focus on creating a new landing page that is a combined dashboard surfacing key information of both applications with built-in navigation to easily access the drafting application or the repository application.
+   <br>
+  </p>
+</section>
+
+<!-- Design Process -->
+<section class="container">
+  <h3 class="section-title">Design Process</h3>
+  <br>
+      <h5>Research</h5>
+      <p>Through customer feedback, we learned that users were frequently switching between browser tabs to access the two systems. This behavior caused confusion and frustration, as users had to remember which system handled each part of the workflow.
+The mental effort required to track system responsibilities highlighted a lack of cohesion in the overall experience.
+Based on these insights, we identified several key challenges to address in this phase of the integration project:
+      <li>User Workflow Disruptions: Users were accustomed to using CW and AXD separately. The new design had to minimize friction while improving efficiency.
+       </li>
+       <br>
+      <li>Information Architecture & Navigation: Merging two applications meant restructuring the UI to accommodate different workflows while maintaining clarity.
+       </li>
+       <br>
+      <li>Consistency in Design Language: Both had distinct UIs. Unifying them into a single design system was critical for usability and brand consistency.</li>
+    </ul>
+    <br>
+  </p>
+</section>
+</p>
+    </div>
+  
+
+      <h5>Ideation</h5>
+      <p>I partnered with another designer to lead the design efforts for this project. After conducting extensive research into competitor products and dashboard landing pages across other applications, we gathered inspiration and best practices that could inform our approach.
+
+We went through multiple rounds of brainstorming and rapid iteration, exploring different layout structures, content hierarchies, and interaction patterns. Our goal was to create a dashboard that felt unified, intuitive, and scalable—despite the complexity of integrating two systems.
+    </p>
+
+    <br>
+      <h5>Design</h5>
+      <p></p>
+     <div id="designIterationCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="iteration_v1.png" class="d-block w-100" alt="V1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Iteration V1</h5>
+        <p>Early layout exploring navigation grouping.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="iteration_v2.png" class="d-block w-100" alt="V2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Iteration V2</h5>
+        <p>Added CTA clarity based on usability test feedback.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="final_design.png" class="d-block w-100" alt="Final">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Final Design</h5>
+        <p>Refined UI and improved visual hierarchy.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#designIterationCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#designIterationCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+        
+    </div>
+    <br>
+   
+</section>
+
+<!-- Outcome -->
+<section class="container mb-5">
+  <h3 class="section-title">Outcomes & Learnings</h3>
+  <p>
+    I collaborated closely with two separate development teams to deliver multiple iterations of the home dashboard, refining the experience through continuous feedback and usability validation. Our efforts supported the successful launch of a new premium product line, rolled out to 100% of the user base.
+
+Since launch, the dashboard has seen consistent engagement, averaging 12,000 monthly page visits. Within the first year, it contributed to the addition of 170 premium accounts—including upgrades, renewals, and new logo acquisitions—highlighting both business impact and user adoption.
+
+Working closely with cross-functional partners taught me how to align across teams while maintaining design consistency and quality. It also reinforced the importance of collaborative, data-informed, and iterative design.
+  </p>
+</section>
+
+
+  <footer class="page-footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <h5 class="lets-connect">Let's Connect!</h5>
+        <ul class="socials">
+          <li>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:example@gmail.com" class="social-icon">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        © 2025 Viki Chen
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Required Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <style>
+    .page-footer {
+      background: #F98267;
+      color: white;
+      padding: 20px;
+    }
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .footer-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .footer-left h5 {
+      margin: 0;
+      font-size: 18px;
+    }
+  
+    .socials {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .social-icon {
+      color: white;
+      font-size: 24px;
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+  
+    .social-icon:hover {
+      transform: scale(1.2);
+      color: #ffffffcc;
+    }
+  
+    .footer-right {
+      font-size: 14px;
+    }
+  
+    @media (max-width: 600px) {
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+  
+      .footer-right {
+        align-self: flex-end;
+      }
+    }
+  </style>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
