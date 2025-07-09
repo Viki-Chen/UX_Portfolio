@@ -91,6 +91,24 @@ max-height: 90px;
         line-height: 1.8;
       }
 
+      .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; /* remove the default white arrow */
+  color: black; /* fallback, not used directly on pseudo-elements */
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+  content: '‹'; /* Left arrow */
+  font-size: 2rem;
+  color: black;
+  display: inline-block;
+}
+
+.carousel-control-next-icon::after {
+  content: '›'; /* Right arrow */
+}
+
   /* .img-fluid{ */ */
     width: 370px;
     height: 350px;
