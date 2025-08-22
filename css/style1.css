@@ -7,7 +7,7 @@ html, body {
     
     .navbar-brand{
     font-family: Montserrat;
-    font-weight: 10;
+    font-weight: 50;
     }
     
     .navbar-nav{
@@ -110,7 +110,115 @@ max-height: 90px;
 }
 
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; /* body text */
+}
 
+h2 {
+  font-weight: 600; /* subheadings */
+}
 
+h1 {
+  font-weight: 700; /* main headings */
+}
 
- 
+.projects-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+
+}
+.projects-subtitle {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.projects-subtitle {
+  margin-bottom: 0.25rem; 
+}
+
+.projects-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem; 
+  color: #453b3b;
+  margin-bottom: 0.25rem;
+  margin-top: 2.0rem;
+}
+
+.projects-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+  font-style: italic; 
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between; /* spread evenly */
+  gap: 1.5rem; /* space between cards */
+  flex-wrap: wrap; /* stacks on smaller screens */
+  margin: 3rem 0;
+}
+
+.feature {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(216, 158, 158, 0.1);
+  flex: 1 1 300px; /* responsive width */
+}
+
+.feature h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #111;
+  font-size: 1.2rem;
+}
+
+.feature p {
+  font-weight: 400;
+  color: #666;
+  line-height: 1.5;
+}
+
+.image-wrapper {
+  text-align: center;      
+  display: flex;           
+  flex-direction: column;  
+  align-items: center;   
+}
+
+.about-image {
+  max-width: 250px; 
+  width: 100%;
+  height: auto;
+  border-radius: 2%; 
+}
+
+.text-muted.small {
+  font-size: 12px;
+}
+
+.right-side {
+  flex: 0 0 60%;
+  background-color: white;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;  
+  padding-top: 3rem;       
+}
+
+.right-side .container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.right-side .text-content {
+  font-size: 1.0rem; /* smaller than default */
+  line-height: 1.5;  /* keeps text readable */
+}
+
